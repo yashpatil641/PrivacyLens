@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "My Extension",
+  "description": "A general description of what your extension does.",
+  "version": "1.0.0",
+
+  "permissions": ["storage", "tabs", "activeTab"],
+  "host_permissions": ["https://*/*", "http://*/*"],
+  "action": {
+    "default_popup": "index.html"
+  },
+  "default_area": {
+    "width": 400,
+    "height": 600
+  }
+}

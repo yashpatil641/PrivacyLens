@@ -1,0 +1,22 @@
+{
+  "files": [],
+  "references": [
+    {
+      "path": "./tsconfig.app.json"
+    },
+    {
+      "path": "./tsconfig.node.json"
+    }
+  ],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+    "jsx": "react",
+    "strict": true,
+    "typeRoots": ["./node_modules/@types", "./src"], 
+    "moduleResolution": "node"
+  },
+  // "include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.d.ts"]
+}
