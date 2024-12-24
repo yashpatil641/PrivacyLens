@@ -1,0 +1,17 @@
+pandas
+langchain
+langchain-google-genai
+pymupdf
+fpdf
+selenium
+beautifulsoup4
+requests
+python-dotenv
+langchain-groq
+langchain_community 
+langchain-chroma
+pypdf
+sentence-transformers
+langchain-huggingface
+webdriver-manager
+PyPDF2
