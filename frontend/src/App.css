@@ -1,7 +1,9 @@
 /* .{
   color: hsl(0, 57%, 45%)
 } */
-
+*{
+  box-sizing: border-box;
+}
 
 /* HTML: <div class="loader"></div> */
 .loader {
