@@ -9,3 +9,19 @@ __pycache__/
 
 # Environment variables
 .env
+
+# Files
+DejaVuSans.ttf
+main1.py
+main.py
+output.json
+requirements.txt
+
+# Directories
+data/
+env/
+myenv/
+scrape/
+utils/
+__pycache__/
+
