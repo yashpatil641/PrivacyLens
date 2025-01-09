@@ -1,79 +1,100 @@
 {
-    "scores": {
-        "account_control": {
-            "quotes": [
-                "You can control your account settings and privacy preferences"
-            ],
-            "score": 4
+    "scores": [
+        {
+            "data": {
+                "type": "account_control",
+                "score": 4,
+                "quotes": [
+                    "You can add or remove information on your profile, and you can also disable your account."
+                ]
+            }
         },
-        "data_collection": {
-            "quotes": [
-                "We collect information about your device and your use of Reddit",
-                "We collect information from third-party websites and apps that use our services"
-            ],
-            "score": 3
+        {
+            "data": {
+                "type": "data_collection",
+                "score": 3,
+                "quotes": [
+                    "We collect information when you use our Services, like when you create an account, post content, or use our messaging features."
+                ]
+            }
         },
-        "data_deletion": {
-            "quotes": [
-                "You can delete your account and data at any time",
-                "We may retain certain information after you delete your account"
-            ],
-            "score": 3
+        {
+            "data": {
+                "type": "data_deletion",
+                "score": 3,
+                "quotes": [
+                    "If you choose to delete your account, we will delete your content, but we may keep some information for legal reasons or to prevent harm."
+                ]
+            }
         },
-        "data_sharing": {
-            "quotes": [
-                "We may share information with third-party service providers",
-                "We may share information with other Reddit users and communities"
-            ],
-            "score": 3
+        {
+            "data": {
+                "type": "data_sharing",
+                "score": 2,
+                "quotes": [
+                    "We may share information with third-party partners for business purposes, such as providing joint services or helping us market our services."
+                ]
+            }
         },
-        "legal_rights": {
-            "quotes": [
-                "You have certain legal rights with respect to your information",
-                "We may limit or deny your request if it violates applicable law"
-            ],
-            "score": 3
+        {
+            "data": {
+                "type": "legal_rights",
+                "score": 4,
+                "quotes": [
+                    "We comply with legal requests from law enforcement and other public authorities. We may also share information if we believe it's necessary to protect the rights, property, and safety of Instagram, our users, or others."
+                ]
+            }
         },
-        "privacy_controls": {
-            "quotes": [
-                "You can control your privacy preferences and settings",
-                "You can adjust your ad preferences and opt out of targeted advertising"
-            ],
-            "score": 4
+        {
+            "data": {
+                "type": "privacy_controls",
+                "score": 4,
+                "quotes": [
+                    "You can control who sees your content and adjust your privacy settings through your account settings."
+                ]
+            }
         },
-        "security_measures": {
-            "quotes": [
-                "We maintain appropriate physical, technical, and administrative safeguards",
-                "We use industry-standard encryption to protect your data"
-            ],
-            "score": 5
+        {
+            "data": {
+                "type": "security_measures",
+                "score": 4,
+                "quotes": [
+                    "We work hard to protect your account using technological measures to prevent unauthorized access, and we regularly review our security measures."
+                ]
+            }
         },
-        "terms_changes": {
-            "quotes": [
-                "We may modify these terms at any time",
-                "We will notify you of any material changes to these terms"
-            ],
-            "score": 3
+        {
+            "data": {
+                "type": "terms_changes",
+                "score": 3,
+                "quotes": [
+                    "We may change our terms of service, and if we do, we will let you know by posting an announcement on Instagram or sending you a message."
+                ]
+            }
         },
-        "transparency": {
-            "quotes": [
-                "We are transparent about how we collect, use, and share your information",
-                "We provide you with notice of our data practices"
-            ],
-            "score": 5
+        {
+            "data": {
+                "type": "transparency",
+                "score": 4,
+                "quotes": [
+                    "We aim to be clear about how our services work and about the information we collect, so that you can make informed decisions."
+                ]
+            }
         },
-        "user_content_rights": {
-            "quotes": [
-                "You retain your rights to any content you post or submit",
-                "We may use your content for any purpose"
-            ],
-            "score": 3
+        {
+            "data": {
+                "type": "user_content_rights",
+                "score": 4,
+                "quotes": [
+                    "You own the content you create, and you can control how it's shared through your privacy settings."
+                ]
+            }
         }
-    },
+    ],
     "metadata": {
         "risk_percentage": 42,
         "risk_level": "Elevated Concern",
-        "GDPR_compliance_score": 3,
-        "additional_notes": "The document provides a moderate level of detail regarding data processing activities, but lacks clarity in some areas such as data deletion and user content rights. The document also mentions the use of data for various purposes, including targeted advertising, without explicit consent."
+        "GDPR_compliance_score": 3.5,
+        "additional_notes": "The Terms & Conditions text shows a moderate level of GDPR compliance, with some areas requiring improvement, such as data sharing and data deletion."
     }
 }

@@ -1,0 +1,80 @@
+{
+                            "scores": {
+                                "account_control": {
+                                    "quotes": [
+                                        "exact quote 1",
+                                        "exact quote 2"
+                                    ],
+                                    "score": 1-5
+                                },
+                                "data_collection": {
+                                    "quotes": [
+                                        "exact quote 1",
+                                        "exact quote 2"
+                                    ],
+                                    "score": 1-5
+                                },
+                                "data_deletion": {
+                                    "quotes": [
+                                        "exact quote 1",
+                                        "exact quote 2"
+                                    ],
+                                    "score": 1-5
+                                },
+                                "data_sharing": {
+                                    "quotes": [
+                                        "exact quote 1",
+                                        "exact quote 2"
+                                    ],
+                                    "score": 1-5
+                                },
+                                "legal_rights": {
+                                    "quotes": [
+                                        "exact quote 1",
+                                        "exact quote 2"
+                                    ],
+                                    "score": 1-5
+                                },
+                                "privacy_controls": {
+                                    "quotes": [
+                                        "exact quote 1",
+                                        "exact quote 2"
+                                    ],
+                                    "score": 1-5
+                                },
+                                "security_measures": {
+                                    "quotes": [
+                                        "exact quote 1",
+                                        "exact quote 2"
+                                    ],
+                                    "score": 1-5
+                                },
+                                "terms_changes": {
+                                    "quotes": [
+                                        "exact quote 1",
+                                        "exact quote 2"
+                                    ],
+                                    "score": 1-5
+                                },
+                                "transparency": {
+                                    "quotes": [
+                                        "exact quote 1",
+                                        "exact quote 2"
+                                    ],
+                                    "score": 1-5
+                                },
+                                "user_content_rights": {
+                                    "quotes": [
+                                        "exact quote 1",
+                                        "exact quote 2"
+                                    ],
+                                    "score": 1-5
+                                }
+                            }, 
+                            "metadata": {
+                                "risk_percentage": 0-100,
+                                "risk_level": "Very High Risk|High Risk|Moderate Risk|Low Risk",
+                                "GDPR_compliance_score": 0-5,
+                                "additional_notes": "Detailed observations about GDPR compliance and related strengths or shortcomings."
+                            }
+                        }

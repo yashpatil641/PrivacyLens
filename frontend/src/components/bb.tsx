@@ -1,4 +1,4 @@
-import '/home/yash-pramod-patil/Desktop/privacypilot/frontend/src/App.css'
+import '../App.css'
 
 type props={
   content : string

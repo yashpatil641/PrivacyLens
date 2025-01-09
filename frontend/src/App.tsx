@@ -81,11 +81,11 @@ const App: React.FC = () => {
                 <div onClick={()=>{window.location.reload();}} className="rounded-[300px]">
                     <BB content="Inspect New Site" />
                 </div>
-              </div>
+              </div> 
               </div>
             ) : (
               <div className="bg-pink-500/500 w-full flex justify-center gap-10 flex-col items-center">
-                <input type="text" className="bg-zinc-700 rounded min-h-11 min-w-80" onChange={changesiteurl} />
+                <input type="text" className="bg-zinc-700 placeholder:text-white/40 rounded min-h-11 min-w-96 p-4 focus:outline-none " onChange={changesiteurl} placeholder="Enter Site URL" />
                 <div onClick={gettData} className="rounded-[300px]">
                   
                 <BB content="Inspect Site" />

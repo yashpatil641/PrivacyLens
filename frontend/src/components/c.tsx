@@ -46,13 +46,18 @@ export function Component({site, score=70  }: ComponentProps) {
     <div
         className="relative px-7 py-6 bg-zinc-900 ring-1 ring-gray-900/5 rounded-lg leading-none flex items-top justify-start space-x-6">
         <div className="space-y-2">
-            
+          
         
     <Card className="flex gap-5 p-7 h-full bg-zinc-500/10  shadow-none  transition-all duration-300 items-center dark border-none">
 
       <CardHeader className="items-center p-0 ">
-        <CardTitle className="text-[20px]">Risk Precentage</CardTitle>
-        <CardDescription className="text-[15px]">for {site}</CardDescription>
+        <CardTitle className="text-[20px] tracking-wide">Risk Precentage</CardTitle>
+        <CardDescription className="flex gap-2 tracking-wide text-[15px] bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
+           <div className="text-[15px] text-white">
+          for
+            </div> 
+            {site}
+        </CardDescription>
       </CardHeader>
       <CardContent className="bg-green-500/500 p-0">
         <ChartContainer 

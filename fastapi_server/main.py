@@ -1,7 +1,7 @@
 from fastapi import FastAPI, HTTPException
 from typing import Optional
 from pydantic import BaseModel
-
+from privacy_code import get_json
 
 app = FastAPI()
 
@@ -27,7 +27,7 @@ async def get_summary(url_data: Sitemodel):
     try:
         
         site_name = url_data.url
-        summary = summaryextractor(site_name)
+        summary = get_json(site_name)
         return summary
     
     
