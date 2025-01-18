@@ -92,8 +92,8 @@ def get_json(url: str, progress_callback=None) -> dict:
     print("LLM is initializing...")
     # Initialize the language model
     llm = ChatGroq(
-        model="mixtral-8x7b-32768",
-        # model="llama3-8b-8192",
+        # model="mixtral-8x7b-32768",
+        model="llama3-8b-8192",
         # model="llama-3.2-11b-vision-preview",
         # model="llama-3.2-90b-vision-preview",
         # model="llama-3.3-70b-versatile",

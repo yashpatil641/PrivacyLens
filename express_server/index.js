@@ -5,8 +5,7 @@ const prisma = new PrismaClient();
 
 const app = express();
 const port = 6969;
-app.use(express.json()); // Middleware to parse JSON request bodies
-
+app.use(express.json()); 
 
 
 

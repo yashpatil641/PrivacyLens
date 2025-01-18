@@ -5,7 +5,8 @@
                 "type": "account_control",
                 "score": 4,
                 "quotes": [
-                    "You can add or remove information on your profile, and you can also disable your account."
+                    "You can manage your account settings, including your email preferences, by visiting the 'Account Settings' page.",
+                    "We may also use your account information to provide you with targeted advertising and promotional offers."
                 ]
             }
         },
@@ -14,25 +15,28 @@
                 "type": "data_collection",
                 "score": 3,
                 "quotes": [
-                    "We collect information when you use our Services, like when you create an account, post content, or use our messaging features."
+                    "We collect information about your interactions with our services, including the content you view and the searches you conduct.",
+                    "We may also collect information about your device, including your IP address and browser type."
                 ]
             }
         },
         {
             "data": {
                 "type": "data_deletion",
-                "score": 3,
+                "score": 2,
                 "quotes": [
-                    "If you choose to delete your account, we will delete your content, but we may keep some information for legal reasons or to prevent harm."
+                    "You can request that we delete your account and all associated data by contacting our support team.",
+                    "We may retain certain data for a limited period of time to comply with legal obligations."
                 ]
             }
         },
         {
             "data": {
                 "type": "data_sharing",
-                "score": 2,
+                "score": 3,
                 "quotes": [
-                    "We may share information with third-party partners for business purposes, such as providing joint services or helping us market our services."
+                    "We may share your information with our affiliates and partners to provide you with targeted advertising and promotional offers.",
+                    "We may also share your information with law enforcement or other government agencies if required by law."
                 ]
             }
         },
@@ -41,16 +45,18 @@
                 "type": "legal_rights",
                 "score": 4,
                 "quotes": [
-                    "We comply with legal requests from law enforcement and other public authorities. We may also share information if we believe it's necessary to protect the rights, property, and safety of Instagram, our users, or others."
+                    "You agree to be bound by our Terms of Service and to comply with all applicable laws and regulations.",
+                    "We reserve the right to modify or terminate our services at any time without notice."
                 ]
             }
         },
         {
             "data": {
                 "type": "privacy_controls",
-                "score": 4,
+                "score": 3,
                 "quotes": [
-                    "You can control who sees your content and adjust your privacy settings through your account settings."
+                    "You can manage your privacy settings, including your email preferences, by visiting the 'Account Settings' page.",
+                    "We may also provide you with options to opt-out of certain data collection and sharing practices."
                 ]
             }
         },
@@ -59,7 +65,8 @@
                 "type": "security_measures",
                 "score": 4,
                 "quotes": [
-                    "We work hard to protect your account using technological measures to prevent unauthorized access, and we regularly review our security measures."
+                    "We use industry-standard security measures to protect your information, including encryption and secure servers.",
+                    "We also implement regular security audits and penetration testing to identify and address vulnerabilities."
                 ]
             }
         },
@@ -68,7 +75,8 @@
                 "type": "terms_changes",
                 "score": 3,
                 "quotes": [
-                    "We may change our terms of service, and if we do, we will let you know by posting an announcement on Instagram or sending you a message."
+                    "We may modify or update our Terms of Service at any time without notice.",
+                    "You agree to be bound by any changes to our Terms of Service."
                 ]
             }
         },
@@ -77,24 +85,26 @@
                 "type": "transparency",
                 "score": 4,
                 "quotes": [
-                    "We aim to be clear about how our services work and about the information we collect, so that you can make informed decisions."
+                    "We provide you with clear and concise information about our data collection and sharing practices.",
+                    "We also provide you with options to opt-out of certain data collection and sharing practices."
                 ]
             }
         },
         {
             "data": {
                 "type": "user_content_rights",
-                "score": 4,
+                "score": 3,
                 "quotes": [
-                    "You own the content you create, and you can control how it's shared through your privacy settings."
+                    "You retain all rights to your content, but by submitting it to us, you grant us a license to use and distribute it.",
+                    "We may also use your content to promote our services and to provide targeted advertising and promotional offers."
                 ]
             }
         }
     ],
     "metadata": {
-        "risk_percentage": 42,
-        "risk_level": "Elevated Concern",
-        "GDPR_compliance_score": 3.5,
-        "additional_notes": "The Terms & Conditions text shows a moderate level of GDPR compliance, with some areas requiring improvement, such as data sharing and data deletion."
+        "risk_percentage": 55,
+        "risk_level": "Caution Advised",
+        "GDPR_compliance_score": 3,
+        "additional_notes": "The document provides some transparency and security measures, but there are concerns about data collection and sharing practices. The document could be improved by providing more detailed information about data deletion and retention periods."
     }
 }

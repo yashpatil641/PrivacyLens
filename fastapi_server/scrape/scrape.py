@@ -3,8 +3,8 @@ from bs4 import BeautifulSoup
 from urllib.parse import urljoin, urlparse
 import time
 from selenium import webdriver
-# from selenium.webdriver.chrome.options import Options
-from selenium.webdriver.firefox.options import Options
+from selenium.webdriver.chrome.options import Options
+# from selenium.webdriver.firefox.options import Options
 
 from fpdf import FPDF
 
@@ -41,12 +41,12 @@ extracted_text = ""
 
 options = Options()
 
-options.add_argument("--headless")  # Enable headless mode
-options.add_argument("--disable-gpu")  # Disable GPU acceleration (optional)
-options.add_argument("--window-size=1920,1080")  # Ensure proper rendering size
+# options.add_argument("--headless")  # Enable headless mode
+# options.add_argument("--disable-gpu")  # Disable GPU acceleration (optional)
+# options.add_argument("--window-size=1920,1080")  # Ensure proper rendering size
 
-# driver = webdriver.Chrome(options=options)
-driver = webdriver.Firefox(options=options)
+driver = webdriver.Chrome(options=options)
+# driver = webdriver.Firefox(options=options)
 
 # driver from firefox
 
@@ -78,13 +78,16 @@ def scrape(url):
         count += 1
 
     if time.time() - start_time > 7:
-        return extracted_text[:200] or ""
+        return extracted_text[:2000000] or ""
 
     if url in visited:
         return
 
     visited.add(url)
     driver.get(url)
+    print(f"Successfully visited: {url}")
+
+
     soup = BeautifulSoup(driver.page_source, 'html.parser')
     text = soup.get_text()
 
@@ -94,7 +97,7 @@ def scrape(url):
 
     for link in soup.find_all('a', href=True):
         if time.time() - start_time > 7:
-            return extracted_text[:200] or ""
+            return extracted_text[:2000000] or ""
 
         domain = start_link[len("https://"):].split(".")[0]
         if domain not in link['href']:
@@ -111,7 +114,7 @@ def scrape(url):
             if result:
                 extracted_text += result
 
-    return extracted_text[:200] or ""
+    return extracted_text[:2000000] or ""
 
 
 from fpdf import FPDF
@@ -148,3 +151,4 @@ def save_to_pdf(text, filename):
         print(f"Error saving PDF: {e}")
 
 
+print(len(scrape('https://redditinc.com/policies/user-agreement')))
